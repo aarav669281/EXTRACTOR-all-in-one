@@ -9,5 +9,3 @@ cloudscraper
 pycryptodome
 pytz
 pyromod
-fastapi
-uvicorn
