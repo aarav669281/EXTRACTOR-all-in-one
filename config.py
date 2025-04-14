@@ -2,15 +2,15 @@
 from os import getenv
 
 
-API_ID = int(getenv("API_ID", "25624473"))
-API_HASH = getenv("API_HASH", "f9064b91dc1331fe9cd614a34eb37de0")
-BOT_TOKEN = getenv("BOT_TOKEN", "7503125213:AAFsRIHoAwlQ3R-2_dh05vma4AlJGYknEKg")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7503125213:AAFsRIHoAwlQ3R-")
 OWNER_ID = int(getenv("OWNER_ID", "7507228967"))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7507228967").split()))
-MONGO_URL = getenv("MONGO_DB", "mongodb+srv://Ankit:<db_password>@cluster0.aigsy.mongodb.net/?retryWrites=true&w=majority")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+MONGO_URL = getenv("MONGO_DB", "mongodb+srv://:<>@cluster0.aigsy.mongodb.net/?=true&wmajority")
 
-CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002642786656"))
-PREMIUM_LOGS = int(getenv("PREMIUM_LOGS", "-1002642786656"))
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-"))
+PREMIUM_LOGS = int(getenv("PREMIUM_LOGS", "-"))
 
 """
 #
